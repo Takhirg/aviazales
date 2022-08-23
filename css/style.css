@@ -1,0 +1,232 @@
+body {
+    background-color: #4682B4;
+}
+
+.lw {
+    font-size: 60px;
+}
+
+.section {
+    width: 80%;
+    margin-left: 10%;
+    height: 600px;
+    background: #4682B4;
+
+
+}
+
+
+.headliner {
+    padding-top: 10px;
+    text-align: center;
+
+
+}
+
+.rt {
+    margin-top: 20px;
+    margin-left: 45%;
+
+
+}
+
+.ty {
+
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px dotted white;
+    transition: 1s;
+    background: white;
+}
+
+
+.ty:hover {
+
+    border: 1px dotted green;
+    background: green;
+
+}
+
+
+.qwas {
+    border: 1px solid red;
+
+
+}
+
+.daf {
+    width: 30%;
+    height: 40%;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1%;
+}
+
+.imagee {
+    background-size: cover;
+    transition: 1s;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT7a4GTeu5kNuUczmZrEF4N7jTNXuptA5N3g&usqp=CAU);
+}
+
+.imagee:hover {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShejeA_hmcEQMoVjovJ2Ux6jYcQIrarFAXUA&usqp=CAU);
+}
+
+.image1 {
+
+    background-image: url(https://cdni-vm.gcdn.co/2021.12/original/720_61b856be82682c05f7b7233e.jpg);
+    transition: 1s;
+
+    background-size: cover;
+}
+
+.image1:hover {
+    background-image: url(https://delitorta.ru/upload/iblock/325/325d17817aaa6677552f72f4404813f1.jpg);
+    background-size: cover;
+
+}
+
+.image2 {
+    background-image: url(https://static.ukrinform.com/photos/2020_04/thumb_files/630_360_1586671730-313.jpg);
+    transition: 1s;
+
+    background-size: cover;
+}
+
+.image2:hover {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe15kPSGkNO_2juN0CvA5y1-ONSRFQrcGddA&usqp=CAU);
+    background-size: cover;
+}
+
+.baner {
+    filter: drop-shadow(100px 100px 100px rgba(158, 158, 163, 0.1));
+    background: #4682B4 url(https://hdpic.club/uploads/posts/2022-01/1641112603_3-hdpic-club-p-samolet-png-3.png) top 20px right -300px/600px no-repeat;
+
+
+    border-radius: 10px;
+    padding: 235px 72px;
+    background-size: cover;
+}
+
+.l {
+    color: white;
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 46px;
+    color: #ffffff;
+
+}
+
+.dada {
+    color: aliceblue;
+}
+
+.banerr {
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 430px;
+    background-color: #4682B4;
+    margin-bottom: 400px;
+
+}
+
+.iinput {
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+    width: 205px;
+    height: 60px;
+
+}
+
+.sinput {
+    border-radius: 0 0 0 0;
+
+}
+
+
+.endinput {
+    border-radius: 0 10px 10px 0;
+    margin-right: 10px;
+
+}
+
+input {
+    width: 205px;
+    height: 60px;
+    margin-right: 2px;
+
+}
+
+.but {
+    width: 197px;
+    height: 60px;
+    background-color: #ff6f32;
+    border-radius: 10px;
+
+}
+
+.but p {
+
+    color: aliceblue;
+    font-size: 19px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+
+}
+
+
+input::-webkit-input-placeholder {
+
+
+    margin-left: 100px;
+
+
+}
+
+.kart img {
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+
+}
+
+.karts {
+    display: inline-flex;
+}
+
+.kart {
+    height: 365px;
+    width: 245px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+overflow: hidden;
+}
+
+
+.menu {
+
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.menu:hover .content {display: block;}
